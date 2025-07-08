@@ -3,7 +3,7 @@ dependencies:
   repository: oci://registry-1.docker.io/bitnamicharts
   version: 20.4.3
 - name: slurm-exporter
-  repository: oci://ghcr.io/slinkyproject/charts
-  version: 0.3.0
-digest: sha256:0eaab5cf130c5c3ad092f2b8e7f7eabfe73c67e04f60d691a342d9257ee40b53
-generated: "2025-06-06T13:39:00.313661-05:00"
+  repository: oci://tsz.io/kosmix/charts
+  version: 0.4.0
+digest: sha256:f976961e838c8664baad43b86e6fbe67d45d4d7158a4f0cd989194e2dcca7564
+generated: "2025-07-09T01:37:06.336924+08:00"

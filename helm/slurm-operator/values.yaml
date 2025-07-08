@@ -50,7 +50,7 @@ operator:
     #
     # -- (string)
     # Sets the image repository to use.
-    repository: ghcr.io/slinkyproject/slurm-operator
+    repository: tsz.io/kosmix/slurm-operator
     #
     # -- (string)
     # Sets the image tag to use.
@@ -122,7 +122,7 @@ webhook:
     #
     # -- (string)
     # Sets the image repository to use.
-    repository: ghcr.io/slinkyproject/slurm-operator-webhook
+    repository: tsz.io/kosmix/slurm-operator-webhook
     #
     # -- (string)
     # Sets the image tag to use.

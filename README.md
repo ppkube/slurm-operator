@@ -117,14 +117,14 @@ Slurm is a full featured HPC workload manager. To highlight a few features:
 Install the slurm-operator:
 
 ```sh
-helm install slurm-operator oci://ghcr.io/slinkyproject/charts/slurm-operator \
-  --namespace=slinky --create-namespace
+helm install slurm-operator oci://tsz.io/kosmix/charts/slurm-operator \
+  --namespace=kosmix --create-namespace
 ```
 
 Install a Slurm cluster:
 
 ```sh
-helm install slurm oci://ghcr.io/slinkyproject/charts/slurm \
+helm install slurm oci://tsz.io/kosmix/charts/slurm \
   --namespace=slurm --create-namespace
 ```
 

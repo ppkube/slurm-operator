@@ -176,7 +176,7 @@ authcred:
     #
     # -- (string)
     # Set the image repository to use.
-    repository: ghcr.io/slinkyproject/sackd
+    repository: tsz.io/kosmix/sackd
     #
     # -- (string)
     # Set the image tag to use.
@@ -206,7 +206,7 @@ controller:
     #
     # -- (string)
     # Set the image repository to use.
-    repository: ghcr.io/slinkyproject/slurmctld
+    repository: tsz.io/kosmix/slurmctld
     #
     # -- (string)
     # Set the image tag to use.
@@ -322,7 +322,7 @@ login:
     #
     # -- (string)
     # Set the image repository to use.
-    repository: ghcr.io/slinkyproject/login
+    repository: tsz.io/kosmix/login
     #
     # -- (string)
     # Set the image tag to use.
@@ -475,7 +475,7 @@ compute:
     #
     # -- (string)
     # Set the image repository to use.
-    repository: ghcr.io/slinkyproject/slurmd
+    repository: tsz.io/kosmix/slurmd
     #
     # -- (string)
     # Set the image tag to use.
@@ -517,7 +517,7 @@ compute:
       authcred: {}
         # imagePullPolicy: IfNotPresent
         # image:
-        #   repository: ghcr.io/slinkyproject/sackd
+        #   repository: tsz.io/kosmix/sackd
         #   tag: 25.05-ubuntu24.04
         # resources: {}
       #
@@ -712,7 +712,7 @@ accounting:
     #
     # -- (string)
     # Set the image repository to use.
-    repository: ghcr.io/slinkyproject/slurmdbd
+    repository: tsz.io/kosmix/slurmdbd
     #
     # -- (string)
     # Set the image tag to use.
@@ -897,7 +897,7 @@ restapi:
     #
     # -- (string)
     # Set the image repository to use.
-    repository: ghcr.io/slinkyproject/slurmrestd
+    repository: tsz.io/kosmix/slurmrestd
     #
     # -- (string)
     # Set the image tag to use.
