@@ -61,7 +61,7 @@ help: ## Display this help.
 .PHONY: all
 all: build ## Build slurm-operator.
 
-REGISTRY ?= slinky.slurm.net
+REGISTRY ?= tsz.io/kosmix
 
 .PHONY: build
 build: ## Build container images.
