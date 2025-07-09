@@ -792,6 +792,13 @@ accounting:
 # Ref: https://github.com/bitnami/charts/blob/main/bitnami/mariadb/values.yaml
 mariadb:
   enabled: true
+  global:
+    security:
+      allowInsecureImages: true
+  image:
+    registry: tsz.io
+    repository: kosmix/mariadb
+    tag: 11.4.5-debian-12-r12
   auth:
     username: slurm
     database: slurm_acct_db
